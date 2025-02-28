@@ -1,0 +1,6 @@
+FROM tinyllama
+
+# Set parameters for better performance
+PARAMETER num_ctx 256
+PARAMETER num_gpu 1
+PARAMETER num_thread 8
