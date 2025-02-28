@@ -1,0 +1,14 @@
+/vendor
+/storage/*.key
+/node_modules
+.env
+.env.*
+*.log
+.git
+.gitignore
+.gitattributes
+.idea
+.vscode
+*.sublime-workspace
+*.sublime-project
+.DS_Store 
