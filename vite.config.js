@@ -11,4 +11,13 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'dist',
+        assetsDir: 'assets',
+        rollupOptions: {
+            input: {
+                main: '/resources/js/app.js'
+            }
+        }
+    }
 });
