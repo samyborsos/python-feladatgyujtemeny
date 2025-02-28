@@ -13,11 +13,11 @@ export default defineConfig({
     ],
     build: {
         outDir: 'dist',
-        assetsDir: 'assets',
+        emptyOutDir: true,
+        manifest: true,
         rollupOptions: {
-            input: {
-                main: '/resources/js/app.js'
-            }
+            input: '/index.html'
         }
-    }
+    },
+    base: './'
 });
